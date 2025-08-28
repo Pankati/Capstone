@@ -1,50 +1,64 @@
-# Capstone
-**Project scenario**
+# 🚀 SpaceX Falcon 9 First Stage Landing Prediction
 
-In this capstone, you will take the role of a data scientist working for a new rocket company. Space Y that would like to compete with SpaceX founded by Billionaire industrialist Allon Mask. Your job is to determine the price of each launch. You will do this by gathering information about Space X and creating dashboards for your team. You will also determine if SpaceX will reuse the first stage. Instead of using rocket science to determine if the first stage will land successfully, you will train a machine learning model and use public information to predict if SpaceX will reuse the first stage.
+## 📌 Project Overview
+This project is part of the **IBM Data Science Capstone Project**.  
+It analyzes the **SpaceX Falcon 9 launch data** to determine the factors influencing successful landings of the rocket’s first stage and builds a **predictive model** to estimate landing outcomes.  
+Such predictions are valuable for reducing launch costs and improving mission planning.  
 
-**Skills demonstrated**
+---
 
-Web Scraping
+## 🔧 Tools & Libraries
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn, Plotly  
+- Scikit-learn  
+- SQL for querying  
+- Folium / Geospatial analysis  
+- Jupyter Notebook  
 
-Github
+---
 
-Data Analysis
+## 📂 Dataset
+- Data collected from **SpaceX API** and **Wikipedia**.  
+- Contains details such as flight number, launch site, payload mass, orbit type, booster version, and landing outcome.  
 
-Machine Learning Methods
+---
 
-Data-Driven Decision-Making
+## 🚀 Workflow
+1. **Data Collection & Wrangling**  
+   - Extracted SpaceX launch records from the API and Wikipedia  
+   - Cleaned and prepared data for analysis  
 
-Plotly
+2. **Exploratory Data Analysis (EDA)**  
+   - Visualized launch success rates by site, booster type, and payload  
+   - Conducted correlation analysis between features and landing success  
 
-Data Collection
+3. **Data Visualization & Dashboards**  
+   - Built interactive visualizations using Plotly and Folium maps  
+   - Created a dashboard for stakeholders  
 
-Data Presentation
+4. **Predictive Modeling**  
+   - Applied classification models (Logistic Regression, Decision Tree, SVM, KNN)  
+   - Tuned models and compared performance metrics  
 
-Exploratory Data Analysis
+---
 
-Data Science
+## 📊 Results
+- Identified key factors influencing first stage landing success (e.g., payload mass, orbit, launch site)  
+- Built predictive models with performance up to **~83% accuracy**  
+- Delivered an interactive dashboard summarizing SpaceX launch outcomes  
 
-Pandas (Python Package)
+---
 
-Predictive Modeling
+## 🧑‍💻 Skills Demonstrated
+- Data Wrangling & Cleaning  
+- API & Web Data Collection  
+- Exploratory Data Analysis  
+- Interactive Data Visualization (Plotly, Folium)  
+- Machine Learning Classification Models  
+- Dashboard Development  
 
-Statistical Modeling
+---
 
-Data Wrangling
-
-**Tools used**
-
-SQL
-
-Python
-
-Sklearn
-
-Folium Lab
-
-Plotly
-
-GitHub
-
-Powerpoint
+# Run Jupyter Notebook
+jupyter notebook spacex_capstone_project.ipynb
