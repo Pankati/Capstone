@@ -59,6 +59,3 @@ Such predictions are valuable for reducing launch costs and improving mission pl
 - Dashboard Development  
 
 ---
-
-# Run Jupyter Notebook
-jupyter notebook spacex_capstone_project.ipynb
